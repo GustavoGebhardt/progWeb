@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -31,14 +33,28 @@ fieldset{
     background-color: rgba(0, 0, 0, 0.301);
 }
 
-legend{
-    color: white;
+input{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: none;
 }
 
-input{
-    background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
-    border: none;
+input[type='text']{
+    height: 40px;
+    width: 190px;
+}
+
+input[type='password']{
+    height: 40px;
+    width: 190px;
+}
+
+label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+
+    color: white;
 }
 
 .btn {
@@ -49,4 +65,8 @@ input{
 .submit {
     width: 100px;
     height: 30px;
+}
+
+.text {
+    height: 20px;
 }
