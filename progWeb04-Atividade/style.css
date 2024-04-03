@@ -17,8 +17,10 @@
 }
 
 .imagens{
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 5px;
 }
 
 .imagem{
@@ -92,6 +94,6 @@ body{
 
   padding: 10px;
 
-  background: rgb(255,0,97);
-  background: linear-gradient(145deg, rgba(255,0,97,1) 10%, rgba(255,254,0,1) 65%);
+  background: rgb(46,49,130);
+  background: linear-gradient(0deg, rgba(46,49,130,1) 0%, rgba(0,0,0,1) 100%);
 }
