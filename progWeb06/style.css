@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding-top: 50vh;
+}
+
+.inputNome{
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding-left: 8px;
+}
+
+.btn{
+  background-color: rgb(66, 66, 66);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  font-size: 15px;
+}
+
+h3{
+  color: white;
+}
