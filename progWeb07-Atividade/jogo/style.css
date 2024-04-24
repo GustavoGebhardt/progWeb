@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.divMaster{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.divBtn{
+  display: flex;
+  gap: 40px;
+}
+
+.btnJogada{
+  width: 180px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.btnJogada:after{
+  transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.btnJogada:hover{
+  transform:scale(1.05,1.05);
+}
+
+.divBtnPc{
+  width: 180px;
+  height: 100px;  
+  display: flex;
+  gap: 40px;
+}
+
+.btnPedra{
+  width: 180px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 10px;
+  border: none;
+
+  display: none;
+}
+
+.btnTesoura{
+  width: 180px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 10px;
+  border: none;
+
+  display: none;
+}
+
+.btnPapel{
+  width: 180px;
+  height: 100px;
+  font-size: 40px;
+  border-radius: 10px;
+  border: none;
+
+  display: none;
+}
+
+.timer{
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: black;
+  user-select: none;
+}
